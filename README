@@ -1,0 +1,7 @@
+A quickly put together slideshow for displaying browser test results from crossbrowsertesting.com on a big screen in the office
+
+To setup:
+
+- make a copy of config/config.php.example and rename as config/config.php
+- edit config.php with your details and the crossbrowsertesting.com test IDs you want to display
+- create a directory called /data and make it writable

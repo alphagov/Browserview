@@ -1,0 +1,12 @@
+body {background:#323232; font-family:helvetica, arial, sans-serif; margin:0; padding:2% 2% 0 2%;}
+fieldset {border:none; padding:0;margin:0;}
+
+/* Browser shots */
+.browsershot {position:relative; text-align:center; overflow:hidden;}
+.browsershot img {height:80%;box-shadow: 5px 5px 20px #000;} 
+.browsershot .validation {display:block; color:#fff; background:red; -webkit-transform: rotate(-45deg); position:absolute;bottom:50%; width:100%; font-size:2em; font-weight:bold; opacity:0.3;}
+
+/* Browser meta */
+.browsermeta {background:#666666; margin: 4% 2% 0 2%; border-top:solid 1px #fff;border-right:solid 1px #fff;border-left:solid 1px #fff;position:fixed; bottom:0;left:0; right:0; text-align:center;}
+.browsermeta {font-family:monospace;}
+.browsermeta ul li {display:inline; font-size:2em; color:#fff; font-weight:bold; padding-right:1em;}

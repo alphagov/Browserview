@@ -1,0 +1,6 @@
+<?php
+    define('CROSSBROWSER_USERNAME', '');
+    define('CROSSBROWSER_PASSWORD', '');
+    define('CROSSBROWSER_TEST_IDS', '1234' '5678');
+    define('REFRESH_DELAY', '10000');
+?>
