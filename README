@@ -5,3 +5,12 @@ To setup:
 - make a copy of config/config.php.example and rename as config/config.php
 - edit config.php with your details and the crossbrowsertesting.com test IDs you want to display
 - create a directory called /data and make it writable
+
+To run a new batch of tests:
+
+> php tools/cron.php -a run
+
+
+To update the app with the latest batch of tests run:
+
+> php tools/cron.php -a save
