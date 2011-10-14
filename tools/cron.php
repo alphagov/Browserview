@@ -34,12 +34,12 @@ require_once('../init.php');
     }
 
     function save_latest_version(){
-        foreach (split(',', CROSSBROWSER_TEST_IDS) as $test_id) {
-
+        $test_ids = split(',', CROSSBROWSER_TEST_IDS);
+        foreach ($test_ids as $test_id) {
             //get the latest version of the test
             print "Getting metadata for test id: " . $test_id . "\n";            
             $version_details = get_latest_version_details($test_id);
-        
+
             //get the data for that test
             print "Getting latest version data for test id: " . $test_id . "\n";                        
             $version_data = call_crossbrowser("http://crossbrowsertesting.com/api/screenshots/$test_id/version/$version_details->id/show");
