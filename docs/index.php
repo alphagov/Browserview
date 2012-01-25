@@ -66,7 +66,6 @@
         }else{
             trigger_error ('Cant find /data directory');
         }
-        
         return $result;
     }
 

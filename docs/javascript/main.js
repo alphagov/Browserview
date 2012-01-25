@@ -1,4 +1,3 @@
-
 function setup(){
     $('.browserpage').hide();    
     change_page();
